@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf")format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+@font-face{
+     font-family: "Unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; 
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-family: "Unbounded";
+    color: #9747FF;
+    margin-bottom: 0%;
+    margin-top: 60px;
+}
+
+h1 span{
+    color: #f5f5f5;
+    font-family: "Unbounded" ;
+}
+
+p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 24px;
+    
+}
+
+body {
+    background-color: black;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    background-color: #9747FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: "Poppins";
+    justify-content: center;
+    margin: 40px auto;
+    width: 340px;
+    height: 60px;
+    align-items: center;
+   
+}
+a:hover{
+    background-color: #8233e8;
+    cursor:block;
+}
+
+header img{
+    display: block;
+    margin: 75px 0 0 140px;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
