@@ -42,7 +42,9 @@ p {
 }
 
 body {
-    background-color: black;
+    background-color: #FFFFFF;
+    color: #000000;
+    
 }
 a {
     display: flex;
